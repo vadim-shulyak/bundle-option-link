@@ -4,7 +4,7 @@
 
 ### `Installation`
 ```shell
-composer require enjoydevelop/module-bundle-option-link
+composer require enjoydevelop/magento2-module-bundle-option-link
 ```
 
 ```shell
