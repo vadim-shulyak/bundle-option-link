@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+<!--    <preference for="Magento\Bundle\Ui\DataProvider\Product\Form\Modifier\BundlePanel"-->
+<!--                type="EnjoyDevelop\BundleOptionLink\Preference\Ui\DataProvider\Product\Form\Modifier\BundlePanel"/>-->
+<!--    <preference for="Magento\Bundle\Ui\DataProvider\Product\Form\Modifier\Composite"-->
+<!--                type="EnjoyDevelop\BundleOptionLink\Preference\Ui\DataProvider\Product\Form\Modifier\Composite"/>-->
+    <type name="Magento\Bundle\Ui\DataProvider\Product\Form\Modifier\BundlePanel">
+        <plugin type="EnjoyDevelop\BundleOptionLink\Plugin\Ui\DataProvider\Product\Form\Modifier\BundlePanelPlugin"
+                name="bundle_option_product_link_meta" sortOrder="100"/>
+    </type>
+    <type name="Magento\Bundle\Ui\DataProvider\Product\Form\Modifier\Composite">
+        <plugin type="EnjoyDevelop\BundleOptionLink\Plugin\Ui\DataProvider\Product\Form\Modifier\CompositePlugin"
+                name="bundle_option_product_link_data" sortOrder="100"/>
+    </type>
+</config>
