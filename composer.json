@@ -1,5 +1,5 @@
 {
-    "name": "enjoydevelop/module-bundle-option-link",
+    "name": "enjoydevelop/magento2-module-bundle-option-link",
     "description": "Magento 2 module for adding admin product links to bundle options",
     "type": "magento2-module",
     "license": "NONE",
