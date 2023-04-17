@@ -8,5 +8,5 @@ composer require enjoydevelop/magento2-module-bundle-option-link
 ```
 
 ```shell
-bin/magento module:enable EnjoyDevelop_BundleOptionLink && bin/magento setup:di:compile
+bin/magento module:enable EnjoyDevelop_BundleOptionLink && bin/magento setup:upgrade && bin/magento setup:di:compile && bin/magento setup:static-content:deploy -f
 ```
